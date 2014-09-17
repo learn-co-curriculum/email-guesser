@@ -1,5 +1,4 @@
 require 'json'
-require 'pry'
 
 class Predictor
   attr_reader :data, :lookup_hash
