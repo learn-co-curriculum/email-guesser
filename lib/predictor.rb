@@ -1,4 +1,3 @@
-require_relative "dataset.json"
 require 'json'
 
 class Predictor
@@ -30,5 +29,5 @@ class Predictor
   def first_name_last_name(name)
 
   end
-  
+
 end

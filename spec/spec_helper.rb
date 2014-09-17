@@ -1,4 +1,4 @@
-require_relative "../lib/predictor.rb"
+require "./lib/predictor.rb"
 
 RSpec.configure do |config|
   # config here

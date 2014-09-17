@@ -1,7 +1,7 @@
 describe "Predictor" do
 
   it "can initiate a new instance of the class" do
-    expect(Predictor.new).to_not raise_error
+    expect { Predictor.new }.to_not raise_error
   end
 
   describe "#guess" do
