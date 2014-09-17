@@ -49,7 +49,7 @@ Given the following sample dataset of past customers:
 }
 ```
 
-Create a program that, when given a full name and company domain, will predict that potential customer's email address.
+Create a program that will read a JSON file of known emails, much like the JSON above, and use this data to predict new email addresses.
 
 This lab is test-driven so just run `rspec` to get started.
 
