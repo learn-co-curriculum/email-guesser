@@ -31,12 +31,12 @@ describe "Predictor" do
     end
 
     it "results in array of four guesses when there is no data for a particualar company domain" do
-      whitehouse_guess = @my_predictor.guess("Jamil Eady", "whitehouse.gov")
+      whitehouse_guess = @my_predictor.guess("Jahmil Eady", "whitehouse.gov")
 
       expect(whitehouse_guess.class).to eq(Array)
       expect(whitehouse_guess.length).to eq(4)
 
-      variations = ["jahmil.eady@wiser.com", "jahmil.e@wiser.com", "j.eady@wiser.com", "j.e@wiser.com"]
+      variations = ["jahmil.eady@whitehouse.gov", "jahmil.e@whitehouse.gov", "j.eady@whitehouse.gov", "j.e@whitehouse.gov"]
       variations.each { |v| expect(whitehouse_guess).to include(v) }
     end
     

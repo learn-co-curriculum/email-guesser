@@ -26,14 +26,24 @@ class Predictor
     lookup_hash
   end
 
+  def email_formatter(address, domain)
+    "#{address}@#{domain}"
+  end
+
   def guess(full_name, domain)
+    guess = []
     @first_name, @last_name = get_names(full_name)
-    if lookup_hash[domain]
-      address = self.send(lookup_hash[domain])
-      [address + "@" + domain]
+    pattern = lookup_hash[domain]
+    if pattern
+      address = self.send(pattern)
+      guess << email_formatter(address, domain)
     else
-      PATTERNS.collect {|pattern| self.send(pattern) }
+      PATTERNS.each do |pattern| 
+        address = self.send(pattern)
+        guess << email_formatter(address, domain)
+      end
     end
+    guess
   end
 
   def get_names(full_name)
