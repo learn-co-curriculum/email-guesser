@@ -45,7 +45,8 @@ Given the following sample dataset of past customers:
   "Linda Li": "linda.li@wiser.com",
   "Anisha Ramnani": "anisha.r@google.com",
   "Sergey Brin": "sergey.b@google.com",
-  "Nikki Thean": "n.t@etsy.com"
+  "Nikki Thean": "n.t@etsy.com",
+  "Amanda Pickering": "a.pickering@hunch.com"
 }
 ```
 

@@ -26,6 +26,10 @@ describe "Predictor" do
       expect(@my_predictor.guess("Makoto Laar", "google.com")).to eq(["makoto.l@google.com"])
     end
 
+    it "predicts first-initial-dot-last-name emails" do
+      expect(@my_predictor.guess("Harold Cooper", "hunch.com")).to eq(["h.cooper@hunch.com"])
+    end
+
     it "predicts first-initial-dot-last-initial emails" do
       expect(@my_predictor.guess("Fiona Condon", "etsy.com")).to eq(["f.c@etsy.com"])
     end
