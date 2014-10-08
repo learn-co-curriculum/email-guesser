@@ -40,11 +40,11 @@ Given the following sample dataset of past customers:
 
 ```json
 {
-  "Amber Rose": "amber.rose@wiser.com",
+  "Jahmil Eady": "jahmil.eady@wiser.com",
   "Armando Amador": "armando.amador@wiser.com",
   "Linda Li": "linda.li@wiser.com",
   "Anisha Ramnani": "anisha.r@google.com",
-  "Sergey Brin": "s.brin@google.com",
+  "Sergey Brin": "sergey.b@google.com",
   "Nikki Thean": "n.t@etsy.com"
 }
 ```
