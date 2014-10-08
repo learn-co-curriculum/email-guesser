@@ -40,19 +40,19 @@ Given the following sample dataset of past customers:
 
 ```json
 {
-  "Amber Rose" => "amber.rose@wiser.com",
-  "Armando Amador" => "armando.amador@wiser.com",
-  "Linda Li" => "linda.li@wiser.com",
-  "Anisha Ramnani" => "anisha.r@google.com",
-  "Sergey Brin" => "s.brin@google.com",
-  "Nikki Thean" => "n.t@etsy.com"
+  "Amber Rose": "amber.rose@wiser.com",
+  "Armando Amador": "armando.amador@wiser.com",
+  "Linda Li": "linda.li@wiser.com",
+  "Anisha Ramnani": "anisha.r@google.com",
+  "Sergey Brin": "s.brin@google.com",
+  "Nikki Thean": "n.t@etsy.com"
 }
 ```
 
-Create a program that, when given a full name and company domain, will predict that potential customer's email address.
+Create a program that will read a JSON file of known emails, much like the JSON above, and use this data to predict new email addresses.
 
 This lab is test-driven so just run `rspec` to get started.
 
 ## Resources
-* [Ruby Monk(http://rubymonk.com/) - [String Manipulation](http://rubymonk.com/learning/books/1/chapters/5-strings/lessons/8-string-advanced)
+* [Ruby Monk](http://rubymonk.com/) - [String Manipulation](http://rubymonk.com/learning/books/1/chapters/5-strings/lessons/8-string-advanced)
 * [Rubular](http://rubular.com/) - [Regex Evaluator](http://rubular.com/)
