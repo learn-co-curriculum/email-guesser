@@ -1,5 +1,5 @@
 ---
-tags: logic, comp sci, computer science, string manipulation
+tags: logic, comp sci, computer science, string manipulation, bonus
 languages: ruby
 resources: 2
 ---
