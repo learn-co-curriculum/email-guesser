@@ -9,6 +9,8 @@ class Predictor
     # code here
   end
 
+  # add as many methods to this class as you would like
+
   def guess(full_name, domain)
     # code here
   end
