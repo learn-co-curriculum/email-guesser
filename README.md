@@ -73,9 +73,9 @@ To accomplish this lab, your program must be able to read JSON. So what is JSON?
 // government.json
 
 {
-  "president": "Barack Obama"
-  "vice president": "Joe Biden"
-  "secretary of state": "John Kerry"
+  "president": "Barack Obama",
+  "vice president": "Joe Biden",
+  "secretary of state": "John Kerry",
   "secretary of the treasury": "Jacob Lew"
 }
 ```
