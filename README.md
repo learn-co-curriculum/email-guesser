@@ -104,7 +104,7 @@ To learn more about JSON, take a look at [Copter Labs' post](http://www.copterla
 
 ## Instructions
 
-This lab is test-driven so just run `rspec` to get started.
+This lab is test-driven so just run the testing suite to get started.
 
 ## Resources
 
