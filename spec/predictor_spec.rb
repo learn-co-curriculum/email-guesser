@@ -79,13 +79,13 @@ describe "Predictor" do
       end
 
       it "results in array of four guesses when there is no data for a particualar company domain" do
-        whitehouse_guess = @second_predictor.guess("Jahmil Eady", "somewhere.gov")
+        guess = @second_predictor.guess("Elana Simmons", "flatironschool.com")
 
-        expect(somewhere_guess.class).to eq(Array)
-        expect(somewhere_guess.length).to eq(4)
+        expect(guess.class).to eq(Array)
+        expect(guess.length).to eq(4)
 
-        variations = ["jahmil.eady@somewhere.gov", "jahmil.e@somewhere.gov", "j.eady@somewhere.gov", "j.e@somewhere.gov"]
-        variations.each { |v| expect(somewhere_guess).to include(v) }
+        variations = ["elana.simmons@flatironschool.com", "elana.s@flatironschool.com", "e.simmons@flatironschool.com", "e.s@flatironschool.com"]
+        variations.each { |v| expect(guess).to include(v) }
       end
 
     end
