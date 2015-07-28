@@ -1,8 +1,4 @@
----
-tags: logic, comp sci, computer science, string manipulation, bonus
-languages: ruby
-resources: 5
----
+
 
 # Email Address Predictor
 
