@@ -109,3 +109,5 @@ This lab is test-driven so just run the testing suite to get started. The datase
 * [Hack Hands](https://hackhands.com/)- [Reading JSON in Ruby](https://hackhands.com/ruby-read-json-file-hash/)
 * [Ruby Monk](http://rubymonk.com/) - [String Manipulation](http://rubymonk.com/learning/books/1/chapters/5-strings/lessons/8-string-advanced)
 * [Rubular](http://rubular.com/) - [Regex Evaluator](http://rubular.com/)
+
+<a href='https://learn.co/lessons/email-guesser' data-visibility='hidden'>View this lesson on Learn.co</a>
